@@ -1,0 +1,59 @@
+.App {
+  /* background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70); */
+}
+
+body {
+  background-image: linear-gradient(99deg,#ff70a6,#ff9770 40%,#ffd670 73%,#e9ff70);
+  background: cover no-repeat;
+}
+
+.login {
+  text-align: center;
+  box-shadow: 0 14px 28px 0 rgba(0,0,0,.25), 0 10px 10px 0 rgba(0,0,0,.26);
+  border-radius: 10px;
+  margin: 125px 375px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  border-radius: 1px;
+  background-image: radial-gradient(circle at 50% -46%,#737373,#403d39);
+  color: #fff;
+  border: none;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  /* display: inherit;
+  float: left;
+  height: 100%; */
+  box-shadow: 10px 0 20px 0 rgba(0,0,0,.1), 5px 0 5px rgba(0,0,0,.2);
+  background-image: linear-gradient(0deg,#ff7abe,#ff9770);
+  width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    color: #fff;
+    
+}
+
+#dashboard {
+  padding-left: 100px;
+  font-family: Open Sans,Courier New,Courier,monospace;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #f2f2f2;
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+
